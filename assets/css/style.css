@@ -1,0 +1,353 @@
+/*=============================================
+imports
+=============================================*/
+@font-face {
+    font-family: rooto_regular;
+    src: url(/assets/fonts/Roboto/Roboto-Regular.ttf);
+}
+@font-face {
+    font-family: ronboto_bold;
+    src: url(/assets/fonts/Roboto/Roboto-Bold.ttf);
+}
+/*
+COLORS:
+background: #000000;
+background: #FFFFFF;
+background: #DDDDDD;
+background: #0B0C17;
+background: #FF3571;
+background: #0E1554;
+background: #38E0C4;
+background: #6458F9;
+background: #757575;
+background: #F5F5F5;
+background: #FF5548;
+background: #FFC82C;
+*/
+/*=============================================
+Globale einstellungen
+=============================================*/
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body {
+    width: 1440px;
+    font-family: rooto_regular;
+}
+h1 {
+    font-size: 54px;
+}
+h2 {
+    font-family: ronboto_bold;
+    font-size: 24px;
+}
+h3{
+    font-family: ronboto_bold;
+    font-size: 38px;
+}
+h4{
+    font-size: 18px;
+    font-family: ronboto_bold;
+}
+h5 {
+    font-family: ronboto_bold;
+    font-size: 28px;
+}
+h6 {
+    font-family: ronboto_bold;
+    font-size: 52px;
+    color:  #DDDDDD;
+
+}
+p{
+    font-size: 18px;
+    line-height: 27px;
+}
+a {
+    font-size: 14px;
+    color: #FF3571;
+    text-decoration: none;
+}
+/*=============================================
+header
+=============================================*/
+header {
+
+    padding-left: 91px;
+}
+.head_bg_img1 {
+    background-image: url(/assets/img/ilustracion1.png);
+    width: auto;
+    height: 648px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position:right;
+    padding-top: 38px;
+}
+.head_bg_img2{
+    background-image: url('/assets/img/ilustracion_people.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;}
+.head_top_text p{
+    font-size: 14px;
+    color: #0B0C17;
+    margin-bottom: 350px;
+    line-height: 14px;
+
+}
+.head_buttom_text {
+    margin-left: 53px;
+}
+.head_buttom_text img {
+    width: 32px;
+    height: 28px;
+}
+.sec_sroll {
+    margin-top: 76px;
+    margin-left: 53px;
+}
+/*=============================================
+start main page
+=============================================*/
+/*===============IMG=================*/
+.main_top_imagescontan {
+    background-image: url(/assets/img/images.jpg);
+    height: 600px;
+    background-size: cover;
+    margin-top: 130px;
+}
+/*=============================================
+section2 
+=============================================*/
+.sec_idea_text{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 155px;
+    margin-right: 299px;
+    margin-top: 297px;
+}
+
+.idea_text_left {
+    width: 250px;
+}
+.idea_text_left img{
+    width: 60px;
+    height: 62px;
+}
+.idea_text_right {
+    width: 598px;
+}
+.sec_after_several {
+    margin-top: 107px;
+    margin-left: 162px;
+    margin-right: 327px;
+}
+.sec_after_several h3{
+    padding-left: 54px;
+}
+/*=============================================
+4er texte
+=============================================*/
+.after_several_txt_con{
+    margin-top: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 100px;
+    justify-content: center;
+}
+.after_several_txt_con article {
+    display: flex;
+    width: 337px;
+    gap: 10px;
+}
+.after_several_txt_con p{
+    font-size: 14px;
+}
+.after_several_txt_con img {
+    width: 32px;
+    height: 32px;
+}
+/*=============================================
+section 3
+=============================================*/
+.sec_are_you_ready {
+    margin-top: 259px;
+}
+.sec_are_you_ready article {
+    text-align: center;
+    width: 393px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.sec_are_you_ready article p {
+    margin-top: 24px;
+    font-size: 14px;
+    line-height: 18px;
+}
+/*=============================================
+bild plus text 01L
+=============================================*/
+.find_your_img_txt {
+    display: flex;
+    margin-top: 151px;
+    justify-content: space-between;
+    margin-left: 144px;
+    margin-right: 95px;
+}
+.find_your_img img {
+    height: 405px;
+    width: auto;
+}
+.find_your_txt {
+    width: 568px;
+}
+.find_your_txt h6 {
+    padding-bottom: 43px;
+}
+.find_your_txt img {
+    padding-bottom: 27px;
+}
+.find_your_txt h4 {
+    padding-bottom: 24px;
+}
+.find_your_txt p{
+    font-size: 14px;
+    line-height: 28px;
+}
+/*=============================================
+bild plus text 02R
+=============================================*/
+.think_about_img_txt {
+    display: flex;
+    margin-top: 150px;
+    justify-content: space-between;
+    margin-left: 144px;
+    margin-right: 144px;
+}
+.think_about_img  img{
+    height: 405px;
+    width: auto;
+}
+.think_about_txt {
+    width: 568px;
+}
+.think_about_txt h6 {
+    padding-bottom: 43px;
+}
+.think_about_txt img {
+    padding-bottom: 27px;
+}
+.think_about_txt h4 {
+    padding-bottom: 24px;
+}
+.think_about_txt p {
+    font-size: 14px;
+    line-height: 28px;
+}
+/*=============================================
+bild plus text 03L
+=============================================*/
+.design_your_img_txt {
+    display: flex;
+    margin-top: 151px;
+    justify-content: space-between;
+    margin-left: 144px;
+    margin-right: 95px;
+}
+.design_your_img img {
+    height: 405px;
+    width: auto;
+}
+.design_your_txt {
+    width: 568px;
+}
+.design_your_txt h6 {
+    padding-bottom: 43px;
+}
+.design_your_txt img {
+    padding-bottom: 27px;
+}
+.design_your_txt h4 {
+    padding-bottom: 24px;
+}
+.design_your_txt p{
+    font-size: 14px;
+    line-height: 28px;
+}
+/*=============================================
+bild plus text 04R
+=============================================*/
+.share_your_img_txt {
+    display: flex;
+    margin-top: 150px;
+    justify-content: space-between;
+    margin-left: 144px;
+    margin-right: 144px;
+}
+.share_your_img  img{
+    height: 405px;
+    width: auto;
+}
+.share_your_txt {
+    width: 568px;
+}
+.share_your_txt h6 {
+    padding-bottom: 43px;
+}
+.share_your_txt img {
+    padding-bottom: 27px;
+}
+.share_your_txt h4 {
+    padding-bottom: 24px;
+}
+.share_your_txt p {
+    font-size: 14px;
+    line-height: 28px;
+}
+/*=============================================
+section subcribe
+=============================================*/
+.subcribe {
+    width: 656px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 200px;
+}
+.subcribe p {
+    padding-top: 24px;
+    font-size: 14px;
+    line-height: 18px;
+}
+.subcribe div {
+    margin-top: 100px;
+}
+.subcribe a {
+    font-size: 19px;
+    color: #fff;
+    background-color: #FF3571;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 82px;
+    padding-right: 82px;
+    border-radius: 4px;
+
+}
+/*=============================================
+footer
+=============================================*/
+footer{
+    padding-top: 157px;
+}
+.love_by {
+    display: flex;
+    gap: 14px;
+    padding-left: 130px;
+}
+.love_by img {
+    Width:28px;
+    Height:24px;
+}
