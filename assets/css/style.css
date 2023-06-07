@@ -323,7 +323,7 @@ section subcribe
     line-height: 18px;
 }
 .subcribe div {
-    margin-top: 100px;
+    margin-top: 50px;
 }
 .subcribe a {
     font-size: 19px;
@@ -350,4 +350,12 @@ footer{
 .love_by img {
     Width:28px;
     Height:24px;
+}
+
+/* emai eingabe feld*/
+input{
+    border:1px solid #7575755c;
+    border-radius: 10px;
+    padding-top: 5px;
+    padding-bottom: 2px;
 }
