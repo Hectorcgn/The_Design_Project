@@ -3,11 +3,11 @@ imports
 =============================================*/
 @font-face {
     font-family: rooto_regular;
-    src: url(/assets/fonts/Roboto/Roboto-Regular.ttf);
+    src: url('./assets/fonts/Roboto/Roboto-Regular.ttf');
 }
 @font-face {
     font-family: ronboto_bold;
-    src: url(/assets/fonts/Roboto/Roboto-Bold.ttf);
+    src: url('./assets/fonts/Roboto/Roboto-Bold.ttf');
 }
 /*
 COLORS:
@@ -78,7 +78,7 @@ header {
     padding-left: 91px;
 }
 .head_bg_img1 {
-    background-image: url(/assets/img/ilustracion1.png);
+    background-image: url('./assets/img/ilustracion1.png');
     width: auto;
     height: 648px;
     background-size: contain;
@@ -87,7 +87,7 @@ header {
     padding-top: 38px;
 }
 .head_bg_img2{
-    background-image: url('/assets/img/ilustracion_people.png');
+    background-image: url('./assets/img/ilustracion_people.png');
     background-size: contain;
     background-repeat: no-repeat;
     background-position: right;}
@@ -114,7 +114,7 @@ start main page
 =============================================*/
 /*===============IMG=================*/
 .main_top_imagescontan {
-    background-image: url(/assets/img/images.jpg);
+    background-image: url("/assets/img/images.jpg");
     height: 600px;
     background-size: cover;
     margin-top: 130px;
