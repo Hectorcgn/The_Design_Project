@@ -3,11 +3,11 @@ imports
 =============================================*/
 @font-face {
     font-family: rooto_regular;
-    src: url('./assets/fonts/Roboto/Roboto-Regular.ttf');
+    src: url('../fonts/Roboto/Roboto-Regular.ttf');
 }
 @font-face {
     font-family: ronboto_bold;
-    src: url('./assets/fonts/Roboto/Roboto-Bold.ttf');
+    src: url('../fonts/Roboto/Roboto-Bold.ttf');
 }
 /*
 COLORS:
